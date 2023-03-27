@@ -8,5 +8,5 @@ const numeroString = '456';
 console.log(numero + Number(numeroString));
 
 //conversão explicita
-//Number()
-//String()
+//Number() --> converte em number
+//String() --> converte em string
