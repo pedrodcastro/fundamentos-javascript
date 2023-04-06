@@ -1,16 +1,16 @@
 class Cliente {
-  constructor(nome, email, cpf, saldo) {
-    this.nome = nome;
+  constructor(nome, email, cpf, saldo) { //atributos
+    this.nome = nome; 
     this.email = email;
     this.cpf = cpf;
     this.saldo = saldo;
   }
 
-  depositar(valor) {
+  depositar(valor) { //comportamento
     this.saldo += valor;
   }
 
-  exibirSaldo() {
+  exibirSaldo() { //comportamento
     console.log(this.saldo)
   }
 }
